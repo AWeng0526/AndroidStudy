@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">1725121023_wengyuxian_lesson06</string>
+    <string-array name="countries_array">
+        <item>American</item>
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>Britain</item>
+        <item>Canada</item>
+        <item>China</item>
+    </string-array>
+</resources>
