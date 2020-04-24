@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">1725121023_wengyuxian_lesson09</string>
+    <string-array name="name_list">
+
+        <item>Angola</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Anguilla</item>
+        <item>Antigua</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Ascension</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bolivia</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+
+    </string-array>
+</resources>
