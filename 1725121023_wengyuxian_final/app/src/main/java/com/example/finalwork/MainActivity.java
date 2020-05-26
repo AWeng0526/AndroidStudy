@@ -2,6 +2,7 @@ package com.example.finalwork;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -222,7 +223,7 @@ public class MainActivity extends FragmentActivity {
                     TranslateProvider translateProvider = new TranslateProvider();
                     // 将url参数传入
                     TranslateResultDTO translateResult = translateProvider.getTranslateResuly(translatePostDTO);
-                    // 在子线程中更新主线程的视图
+                    // 使用post更新
                     Handler mainHandler = new Handler(Looper.getMainLooper());
                     mainHandler.post(new Runnable() {
                         @Override
@@ -238,7 +239,7 @@ public class MainActivity extends FragmentActivity {
                                 mTextMessage.setText(text);
                                 bufferSave(CREATE_PATH, text);
                             } catch (Exception e) {
-                                System.out.println("读文件报错了");
+                                System.out.println("读取文件失败");
                             }
                         }
                     });

@@ -56,6 +56,7 @@ public class HistoryFragment extends Fragment {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         CREATE_PATH = ((MainActivity) activity).getPath();//通过强转成宿主activity，就可以获取到传递过来的数据
+        System.out.println("传参测试 "+CREATE_PATH);
     }
 
     // 获取最新10条历史纪录

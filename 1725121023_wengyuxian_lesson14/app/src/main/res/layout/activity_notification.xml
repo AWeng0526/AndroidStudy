@@ -10,11 +10,10 @@
         android:id="@+id/textView"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="153dp"
         android:text="通知跳转页by翁彧贤"
         android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

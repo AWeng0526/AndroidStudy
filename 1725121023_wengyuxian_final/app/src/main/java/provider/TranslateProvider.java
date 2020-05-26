@@ -38,7 +38,11 @@ public class TranslateProvider {
                 .build();
         try (Response response = client.newCall(request).execute()) {
             String translateRES = response.body().string();
+            System.out.println("请求成功,返回值为:");
+            System.out.println(translateRES);
             TranslateResultDTO translateResultDTO = JSON.parseObject(translateRES, TranslateResultDTO.class);
+            System.out.println("JSON转Object成功!");
+            System.out.println(translateResultDTO);
             return translateResultDTO;
         } catch (IOException e) {
             e.printStackTrace();

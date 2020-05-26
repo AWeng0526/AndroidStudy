@@ -10,14 +10,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <EditText
             android:id="@+id/inputWord"
             android:layout_width="170dp"
             android:layout_height="60dp"
             android:hint="@string/undershown"
             android:imeOptions="actionNext"
-            android:inputType="text"
-            />
+            android:inputType="text" />
+
         <TextView
             android:id="@+id/tips"
             android:layout_width="90dp"
@@ -28,12 +29,12 @@
             android:textSize="18dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <Spinner
             android:id="@+id/spinner1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/languages"
-            />
+            android:entries="@array/languages" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,17 +44,19 @@
         tools:layout_editor_absoluteY="75dp">
 
         <Button
-            android:layout_marginStart="220dp"
-            android:layout_marginTop="100dp"
             android:id="@+id/btn_click_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="100dp"
             android:onClick="onclick"
             android:text="翻译" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
             android:id="@+id/message"
             android:layout_width="300dp"

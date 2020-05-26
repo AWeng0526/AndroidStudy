@@ -47,9 +47,6 @@
             android:textSize="18dp"
             android:text="@string/introduce5"
             tools:textColor="@android:color/darker_gray"/>
-        <ImageView
-            android:src="@mipmap/gugugu"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+
     </LinearLayout>
 </ScrollView>
