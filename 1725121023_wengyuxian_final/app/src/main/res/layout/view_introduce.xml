@@ -33,20 +33,22 @@
             android:textSize="18dp"
             android:text="@string/introduce3"
             tools:textColor="@android:color/darker_gray"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:textSize="18dp"
             android:text="@string/introduce4"
-            tools:textColor="@android:color/darker_gray"/>
+            android:textSize="18dp"
+            tools:textColor="@android:color/darker_gray" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:textSize="18dp"
             android:text="@string/introduce5"
-            tools:textColor="@android:color/darker_gray"/>
+            android:textSize="18dp"
+            tools:textColor="@android:color/darker_gray" />
 
     </LinearLayout>
 </ScrollView>

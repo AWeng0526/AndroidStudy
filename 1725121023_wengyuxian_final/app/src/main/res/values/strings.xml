@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">十度翻译</string>
-    <string name="title_home">翻译</string>
-    <string name="title_dashboard">历史记录</string>
-    <string name="title_notifications">简介</string>
+    <string name="home">翻译</string>
+    <string name="history">历史记录</string>
+    <string name="introduce">简介</string>
+    <string name="translateResult">no result</string>
     <string name="introduce1">欢迎您使用十度翻译</string>
     <string name="introduce2">
         功能介绍:\n
@@ -23,7 +24,7 @@
     <string name="introduce5">
         by 1725121023 翁彧贤
     </string>
-    <string name="undershown">输入文字(自动检测)</string>
-    <string name="tipss">目标语言:</string>
-    <string name="history">历史记录</string>
+    <string name="inputText">输入文字(自动检测)</string>
+    <string name="language">目标语言:</string>
+    <string name="queryHistory">历史记录</string>
 </resources>
